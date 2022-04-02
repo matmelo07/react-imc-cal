@@ -1,0 +1,29 @@
+.main{
+    flex: 1;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    padding: 20px;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,.1);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconTitle{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.iconInfo{
+    font-size: 12px;
+    margin-top: 10px;
+}

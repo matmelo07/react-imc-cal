@@ -1,0 +1,66 @@
+*{box-sizing: border-box;}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headerContainer{
+    max-width: 900px;
+    margin: 40px auto;
+}
+.container{
+    max-width: 900px;
+    display: flex;
+    margin: auto;
+}
+.container .leftside{
+    flex: 1;
+    margin-right: 40px;
+}
+.container .leftside h1{
+    color: darkslategray;
+    font-size: 40px;
+}
+.container .leftside p{
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: #6A7D88;
+}
+
+.container .rightside{
+    flex: 1;
+    margin-left: 40px;
+    display: flex;
+}
+.input{
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 2px solid darkgray;
+    outline: none;
+    padding: 10px 2px;
+}
+.container .leftside .buttonCalc{
+    margin-top: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: darkgray;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+.container  .leftside .buttonCalc:hover{
+    background-color: rgb(23, 184, 23);
+}
+.rightside .grid{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.rightBig{
+    flex: 1;
+    display: flex;
+}
